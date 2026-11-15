@@ -2,7 +2,7 @@ import React, { createContext, useState, useEffect, useRef } from 'react';
 import { AppState, Alert, Platform } from 'react-native';
 import * as Notifications from 'expo-notifications';
 import * as SQLite from 'expo-sqlite';
-import { INITIAL_TASKS, TODAY_STR } from './initialTasks';
+import { INITIAL_TASKS, TODAY_STR } from './TaskContext';
 
 // Create a shared box (Context) so all screens can read and update tasks
 export const TaskContext = createContext();
