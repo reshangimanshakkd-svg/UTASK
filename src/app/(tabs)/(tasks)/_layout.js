@@ -11,8 +11,8 @@ export default function TasksStackLayout() {
         },
         headerTintColor: COLORS.primary,
         headerTitleStyle: {
-          color: COLORS.textPrimary,
           fontWeight: '700',
+          color: COLORS.textPrimary,
         },
       }}
     >
